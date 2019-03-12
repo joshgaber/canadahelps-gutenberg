@@ -1,0 +1,32 @@
+/**
+ * #.# Editor Styles
+ *
+ * CSS for just Backend enqueued after style.scss
+ * which makes it higher in priority.
+ */
+
+.wp-block-cgb-canadahelps-embed  {
+  background: #ccc;
+  border-radius: 5px;
+  padding: 1rem;
+
+  .canadahelps-header {
+    text-align: center;
+    color: #888;
+    margin: 0 0 1rem;
+  }
+
+
+  .canadahelps-id {
+    border: 1px solid #3cc;
+    background: #ddd;
+    font-size: 1.5rem;
+    height: auto;
+    text-align: center;
+
+    &:focus { background: #bbb; }
+    &:empty { background: #F7BFBF; }
+    &::placeholder { color: #861C1C; }
+
+  }
+}
